@@ -1,0 +1,7 @@
+package ch.hurz.webcollab.client;
+
+import java.io.Serializable;
+
+public class LoginFailureException extends Exception implements Serializable {
+
+}

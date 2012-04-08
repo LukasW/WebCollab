@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="71" version="2.0">
+<workbenchAdvisor/>
+<window height="768" width="1298" x="-1572" y="283">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="com.google.gdt.eclipse.suite.GDTPulldownToolbar" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.compare.CompareEditor" itemType="typePlaceholder" x="84" y="22"/>
+<coolItem id="net.sf.jadclipse.JadclipseClassFileEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Java EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="AppController.java" partName="AppController.java" path="D:/Lukas/webcollab/Contacts/src/com/google/gwt/sample/contacts/client/AppController.java" title="AppController.java" tooltip="Contacts/src/com/google/gwt/sample/contacts/client/AppController.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Contacts/src/com/google/gwt/sample/contacts/client/AppController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="1305" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Presenter.java" partName="Presenter.java" path="D:/Lukas/webcollab/Contacts/src/com/google/gwt/sample/contacts/client/presenter/Presenter.java" title="Presenter.java" tooltip="Contacts/src/com/google/gwt/sample/contacts/client/presenter/Presenter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Contacts/src/com/google/gwt/sample/contacts/client/presenter/Presenter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="134" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="EditContactPresenter.java" partName="EditContactPresenter.java" path="D:/Lukas/webcollab/Contacts/src/com/google/gwt/sample/contacts/client/presenter/EditContactPresenter.java" title="EditContactPresenter.java" tooltip="Contacts/src/com/google/gwt/sample/contacts/client/presenter/EditContactPresenter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Contacts/src/com/google/gwt/sample/contacts/client/presenter/EditContactPresenter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="968"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="1" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<expanded>
+<category IMemento.internal.id="Google Web Toolkit Problem"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.allSeverityField="501" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.google.gwt.eclipse.DevModeView" partName="Development Mode">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+</views>
+<perspectives activePart="com.google.gwt.eclipse.core.editors.gwtJavaEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.google.gdt.eclipse.core.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.mountainminds.eclemma.ui.CoverageActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="com.google.gdt.eclipse.suite.wizards.newProjectWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newEntryPointWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newHostPageWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newModuleWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newClientBundleWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newUiBinderWizard"/>
+<new_wizard_action id="org.eclipse.jpt.jpa.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="com.google.gwt.eclipse.DevModeView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.team.ui.GenericHistoryView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@19c123d" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.32258064" ratioLeft="410" ratioRight="861" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.5248447" ratioLeft="338" ratioRight="306" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.google.gwt.eclipse.DevModeView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="com.google.gwt.eclipse.DevModeView" label="Development Mode"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/WebCollab.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/CollabService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/LoginFailureException.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/CollabServiceAsync.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/server/CollabServiceImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/WebCollab/src/ch/hurz/webcollab/WebCollab.gwt.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/WebCollab/war/WebCollab.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/WebCollab/war/WEB-INF/appengine-web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/WebCollab/war/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/MessagingService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/MessagingServiceAsync.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.compare.CompareEditor" path="/WebCollab/src/ch/hurz/webcollab/client/MessagingServiceAsync.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/server/MessagingServiceImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/WebCollab.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/WebCollab/src/ch/hurz/webcollab/client/messaging/MessagingModel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/Contacts/src/com/google/gwt/sample/contacts/client/AppController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/Contacts/src/com/google/gwt/sample/contacts/client/presenter/Presenter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/Contacts/src/com/google/gwt/sample/contacts/client/presenter/EditContactPresenter.java"/>
+</editors>
+<item historyLabel="WebCollab.java" index="0">
+<position info="not_deleted" x="4651" y="0"/>
+</item>
+<item historyLabel="CollabServiceAsync.java" index="3">
+<position info="not_deleted" x="495" y="0"/>
+</item>
+<item historyLabel="LoginFailureException.java" index="2">
+<position info="not_deleted" x="82" y="21"/>
+</item>
+<item historyLabel="CollabServiceAsync.java" index="3">
+<position info="not_deleted" x="495" y="0"/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position info="not_deleted" x="1483" y="0"/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="WebCollab.java" index="0">
+<position info="not_deleted" x="5668" y="637"/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="WebCollab.java" index="0">
+<position info="not_deleted" x="5668" y="637"/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position info="not_deleted" x="927" y="4"/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position info="not_deleted" x="1033" y="0"/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position/>
+</item>
+<item historyLabel="CollabService.java" index="1">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="CollabServiceAsync.java" index="3">
+<position info="not_deleted" x="495" y="0"/>
+</item>
+<item historyLabel="CollabService.java" index="1">
+<position info="not_deleted" x="517" y="41"/>
+</item>
+<item historyLabel="CollabServiceAsync.java" index="3">
+<position info="not_deleted" x="474" y="0"/>
+</item>
+<item historyLabel="CollabServiceImpl.java" index="4">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="WebCollab.gwt.xml" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WebCollab.java" index="0">
+<position info="not_deleted" x="5577" y="0"/>
+</item>
+<item historyLabel="WebCollab.html" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="appengine-web.xml" index="7">
+<position info="not_deleted" x="811" y="0"/>
+</item>
+<item historyLabel="web.xml" index="8">
+<position info="not_deleted" x="559" y="9"/>
+</item>
+<item historyLabel="CollabService.java" index="1">
+<position info="not_deleted" x="517" y="41"/>
+</item>
+<item historyLabel="CollabService.java" index="1">
+<position/>
+</item>
+<item historyLabel="MessagingService.java" index="9">
+<position info="not_deleted" x="279" y="0"/>
+</item>
+<item historyLabel="MessagingServiceAsync.java" index="10">
+<position info="not_deleted" x="477" y="0"/>
+</item>
+<item historyLabel="MessagingServiceAsync.java" index="10">
+<position info="not_deleted" x="480" y="0"/>
+</item>
+<item historyLabel="MessagingServiceAsync.java" index="11">
+<position info="not_deleted" x="98" y="0"/>
+</item>
+<item historyLabel="MessagingServiceImpl.java" index="12">
+<position info="not_deleted" x="516" y="0"/>
+</item>
+<item historyLabel="appengine-web.xml" index="7">
+<position info="not_deleted" x="811" y="0"/>
+</item>
+<item historyLabel="web.xml" index="8">
+<position info="not_deleted" x="732" y="0"/>
+</item>
+<item historyLabel="appengine-web.xml" index="7">
+<position info="not_deleted" x="811" y="0"/>
+</item>
+<item historyLabel="MessagingService.java" index="9">
+<position info="not_deleted" x="240" y="9"/>
+</item>
+<item historyLabel="WebCollab.java" index="13">
+<position info="not_deleted" x="4351" y="0"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WebCollab.java" index="13">
+<position/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="WebCollab.java" index="13">
+<position info="not_deleted" x="1275" y="97"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="985" y="1"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="947" y="307"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="817" y="1"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="1128" y="0"/>
+</item>
+<item historyLabel="MessagingModel.java" index="14">
+<position info="not_deleted" x="1338" y="0"/>
+</item>
+<item historyLabel="WebCollab.java" index="13">
+<position info="not_deleted" x="1275" y="97"/>
+</item>
+<item historyLabel="AppController.java" index="15">
+<position info="not_deleted" x="1305" y="9"/>
+</item>
+<item historyLabel="Presenter.java" index="16">
+<position info="not_deleted" x="134" y="9"/>
+</item>
+<item active="true" historyLabel="EditContactPresenter.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottomRight"/>
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="com.google.gdt.eclipse.login.status.trim"/>
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="EditContactPresenter.java" tooltip="Contacts/src/com/google/gwt/sample/contacts/client/presenter/EditContactPresenter.java">
+<persistable path="/Contacts/src/com/google/gwt/sample/contacts/client/presenter/EditContactPresenter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Presenter.java" tooltip="Contacts/src/com/google/gwt/sample/contacts/client/presenter/Presenter.java">
+<persistable path="/Contacts/src/com/google/gwt/sample/contacts/client/presenter/Presenter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="AppController.java" tooltip="Contacts/src/com/google/gwt/sample/contacts/client/AppController.java">
+<persistable path="/Contacts/src/com/google/gwt/sample/contacts/client/AppController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MessagingModel.java" tooltip="WebCollab/src/ch/hurz/webcollab/client/messaging/MessagingModel.java">
+<persistable path="/WebCollab/src/ch/hurz/webcollab/client/messaging/MessagingModel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="WebCollab.java" tooltip="WebCollab/src/ch/hurz/webcollab/client/WebCollab.java">
+<persistable path="/WebCollab/src/ch/hurz/webcollab/client/WebCollab.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="appengine-web.xml" tooltip="WebCollab/war/WEB-INF/appengine-web.xml">
+<persistable path="/WebCollab/war/WEB-INF/appengine-web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="WebCollab.html" tooltip="WebCollab/war/WebCollab.html">
+<persistable path="/WebCollab/war/WebCollab.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="LoginFailureException.java" tooltip="WebCollab/src/ch/hurz/webcollab/client/LoginFailureException.java">
+<persistable path="/WebCollab/src/ch/hurz/webcollab/client/LoginFailureException.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" name="Channel.class" tooltip="com.google.gwt.appengine.channel.client.Channel">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=WebCollab/war\/WEB-INF\/lib\/gwt-gae-channel-0.4-alpha.jar&lt;com.google.gwt.appengine.channel.client(Channel.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="WebCollab.gwt.xml" tooltip="WebCollab/src/ch/hurz/webcollab/WebCollab.gwt.xml">
+<persistable path="/WebCollab/src/ch/hurz/webcollab/WebCollab.gwt.xml"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="Channel.gwt.xml" tooltip="WebCollab/war/WEB-INF/lib/gwt-gae-channel-0.4-alpha.jar/com/google/gwt/appengine/channel/Channel.gwt.xml">
+<persistable element="=WebCollab/war\/WEB-INF\/lib\/gwt-gae-channel-0.4-alpha.jar&lt;com.google.gwt.appengine.channel" path="Channel.gwt.xml"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" name="ChannelFactory.class" tooltip="com.google.gwt.appengine.channel.client.ChannelFactory">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=WebCollab/war\/WEB-INF\/lib\/gwt-gae-channel-0.4-alpha.jar&lt;com.google.gwt.appengine.channel.client(ChannelFactory.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="GreetingServiceImpl.java" tooltip="WebCollab/src/ch/hurz/webcollab/server/GreetingServiceImpl.java">
+<persistable path="/WebCollab/src/ch/hurz/webcollab/server/GreetingServiceImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" tooltip="WebCollab/readme.txt">
+<persistable path="/WebCollab/readme.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MyWebSocket.java" tooltip="WebCollab/src/ch/hurz/webcollab/server/MyWebSocket.java">
+<persistable path="/WebCollab/src/ch/hurz/webcollab/server/MyWebSocket.java"/>
+</file>
+</mruList>
+</workbench>

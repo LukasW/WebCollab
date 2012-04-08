@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.google.gwt.appengine.channel.client.ChannelFactory"/>
+<fullyQualifiedTypeName name="com.google.gwt.appengine.channel.client.ChannelFactory.ChannelCreatedCallback"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.Window"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="ch.hurz.webcollab.client.CollabService"/>
+<fullyQualifiedTypeName name="com.google.appengine.api.channel.ChannelServiceFactory"/>
+<fullyQualifiedTypeName name="com.google.appengine.api.channel.ChannelService"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
+<fullyQualifiedTypeName name="com.google.gwt.dev.util.collect.Sets"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.steadystate.css.parser.TokenMgrError"/>
+<fullyQualifiedTypeName name="com.google.appengine.api.channel.ChannelMessage"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.rpc.AsyncCallback"/>
+</qualifiedTypeNameHistroy>

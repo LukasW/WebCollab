@@ -1,0 +1,18 @@
+package ch.hurz.webcollab.client;
+
+import com.google.gwt.user.client.rpc.AsyncCallback;
+
+/**
+ * The async counterpart of {@link CollabService}.
+ */
+public interface CollabServiceAsync {
+	/**
+	 * Tries to login and returns a security token if successful.
+	 */
+	void login(String name, String password,  AsyncCallback<String> callback) throws LoginFailureException;
+
+	/**
+	 * Broadcasts a message.
+	 */
+	void broadcast(String message);
+}

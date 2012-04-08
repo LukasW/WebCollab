@@ -1,0 +1,5 @@
+package ch.hurz.webcollab.server;
+
+public class MyWebSocket extends WebSocketServlet  {
+
+}

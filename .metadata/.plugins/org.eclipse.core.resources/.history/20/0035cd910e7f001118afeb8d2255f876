@@ -1,0 +1,20 @@
+package ch.hurz.webcollab.client;
+
+import com.google.gwt.user.client.rpc.RemoteService;
+import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
+
+/**
+ * Client interface to the collab server.
+ */
+@RemoteServiceRelativePath("collab")
+public interface CollabService extends RemoteService {
+	/**
+	 * Tries to login and returns a security token if successful.
+	 */
+	String login(String name, String password) throws LoginFailureException;
+
+	/**
+	 * Broadcasts a message.
+	 */
+	void broadcast(String sendersClientToken, String message);
+}

@@ -1,0 +1,8 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.jst.ws.jaxb.core,1.0.100.v201104031139,"org.eclipse.jst.ws.jaxb.core",1333633113007
+stopped,bundle,org.eclipse.jst.ws.annotations.core,1.1.0.v201104031139,"org.eclipse.jst.ws.annotations.core",1333633113007
+stopped,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1333633113007
+stopped,bundle,org.eclipse.mylyn.wikitext.ui,1.5.0.v20110608-1400,"org.eclipse.mylyn.wikitext.ui",1333633113007
+stopped,bundle,org.eclipse.mylyn.wikitext.core,1.5.1.v20110720-0100,"org.eclipse.mylyn.wikitext.core",1333633113007
+stopped,bundle,org.eclipse.wst.command.env.ui,1.1.103.v201102260635,"org.eclipse.wst.command.env.ui",1333633113007
+stopped,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1333633113007

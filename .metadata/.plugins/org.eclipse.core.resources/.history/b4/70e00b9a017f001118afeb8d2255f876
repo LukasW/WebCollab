@@ -1,0 +1,30 @@
+package ch.hurz.webcollab.server;
+
+import ch.hurz.webcollab.client.CollabService;
+import ch.hurz.webcollab.client.LoginFailureException;
+
+import com.google.appengine.api.channel.ChannelService;
+import com.google.appengine.api.channel.ChannelServiceFactory;
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+
+/**
+ * The server side implementation of the RPC service.
+ */
+@SuppressWarnings("serial")
+public class CollabServiceImpl extends RemoteServiceServlet implements
+		CollabService {
+
+	@Override
+	public String login(String name, String password)
+			throws LoginFailureException {
+		ChannelService channelService = ChannelServiceFactory
+				.getChannelService();
+		return channelService.createChannel(name);
+	}
+
+	@Override
+	public void broadcast(String message) {
+		// TODO Auto-generated method stub
+
+	}
+}
