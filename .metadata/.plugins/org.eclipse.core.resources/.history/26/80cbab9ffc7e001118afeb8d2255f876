@@ -1,5 +1,0 @@
-package ch.hurz.webcollab.client;
-
-public class LoginFailureException {
-
-}
