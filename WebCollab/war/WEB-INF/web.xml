@@ -4,16 +4,44 @@
               http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
 
+	<!-- Listener for shutting down the comet processor when the ServletContext 
+		is destroyed -->
+	<listener>
+		<listener-class>net.zschech.gwt.comet.server.CometServletContextListener</listener-class>
+	</listener>
+
+	<!-- Listener for invalidating CometSessions when HTTPSessions are invalidated -->
+	<listener>
+		<listener-class>net.zschech.gwt.comet.server.CometHttpSessionListener</listener-class>
+	</listener>
+
+
 	<!-- Servlets -->
 	<servlet>
 		<servlet-name>messagingServlet</servlet-name>
 		<servlet-class>ch.hurz.webcollab.server.MessagingServiceImpl</servlet-class>
 	</servlet>
 
+	<!-- the comet servlet for streaming messages to the client -->
+	<servlet>
+		<servlet-name>upstreamServlet</servlet-name>
+		<servlet-class>net.zschech.gwt.comet.server.CometServlet</servlet-class>
+	</servlet>
+
 	<servlet-mapping>
 		<servlet-name>messagingServlet</servlet-name>
 		<url-pattern>/webcollab/messaging</url-pattern>
 	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>upstreamServlet</servlet-name>
+		<url-pattern>/webcollab/comet</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>1</session-timeout>
+	</session-config>
+
 
 	<!-- Default page to serve -->
 	<welcome-file-list>
