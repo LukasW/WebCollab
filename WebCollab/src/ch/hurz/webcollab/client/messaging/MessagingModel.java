@@ -1,25 +1,25 @@
 package ch.hurz.webcollab.client.messaging;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
+import net.zschech.gwt.comet.client.CometClient;
+import net.zschech.gwt.comet.client.CometListener;
+import net.zschech.gwt.comet.client.CometSerializer;
+import net.zschech.gwt.comet.client.SerialTypes;
 import ch.hurz.webcollab.client.api.LoginFailureException;
 import ch.hurz.webcollab.client.api.LoginMessage;
 import ch.hurz.webcollab.client.api.Message;
-import ch.hurz.webcollab.client.api.MessageSerializer;
 import ch.hurz.webcollab.client.api.MessagingService;
 import ch.hurz.webcollab.client.api.MessagingServiceAsync;
+import ch.hurz.webcollab.client.api.StatusMessage;
 import ch.hurz.webcollab.client.api.TextMessage;
 import ch.hurz.webcollab.client.event.StatusEvent;
 import ch.hurz.webcollab.client.presenter.MessageListener;
 
-import com.google.gwt.appengine.channel.client.Channel;
-import com.google.gwt.appengine.channel.client.ChannelFactory;
-import com.google.gwt.appengine.channel.client.ChannelFactory.ChannelCreatedCallback;
-import com.google.gwt.appengine.channel.client.SocketError;
-import com.google.gwt.appengine.channel.client.SocketListener;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.shared.HandlerManager;
 import com.google.gwt.user.client.Timer;
@@ -41,6 +41,8 @@ public class MessagingModel {
 
 	private final List<Message> messages = new LinkedList<Message>();
 
+	private CometClient cometClient;
+
 	public MessagingModel(final HandlerManager eventBus) {
 		this.eventBus = eventBus;
 	}
@@ -55,7 +57,6 @@ public class MessagingModel {
 					@Override
 					public void onSuccess(final LoginMessage result) {
 						clientToken = result.getChannelKey();
-						messages.addAll(result.getMessages());
 						fireMessagesChanged();
 						openChannel();
 					}
@@ -110,37 +111,63 @@ public class MessagingModel {
 
 	}
 
-	protected void openChannel() {
-		ChannelFactory.createChannel(clientToken, new ChannelCreatedCallback() {
+	@SerialTypes({ StatusMessage.class, TextMessage.class })
+	public static abstract class ChatCometSerializer extends CometSerializer {
+	}
 
-			@Override
-			public void onChannelCreated(final Channel channel) {
-				channel.open(new SocketListener() {
+	protected void openChannel() {
+		final CometSerializer serializer = GWT
+				.create(ChatCometSerializer.class);
+		cometClient = new CometClient(GWT.getModuleBaseURL() + "comet",
+				serializer, new CometListener() {
 					@Override
-					public void onOpen() {
-						// Show status
+					public void onConnected(final int heartbeat) {
+						output("connected " + heartbeat, "silver");
 					}
 
-					@Override
-					public void onMessage(final String serializedMessage) {
-						final Message message = new MessageSerializer()
-								.deserialize(serializedMessage);
-						messages.add(message);
+					private void output(final String string,
+							final String string2) {
+						messages.add(new StatusMessage("[" + string2 + "] "
+								+ string));
 						fireMessagesChanged();
 					}
 
 					@Override
-					public void onError(final SocketError error) {
-						reconnect();
+					public void onDisconnected() {
+						output("disconnected", "silver");
 					}
 
 					@Override
-					public void onClose() {
-						reconnect();
+					public void onError(final Throwable exception,
+							final boolean connected) {
+						output("error " + connected + " " + exception, "red");
+					}
+
+					@Override
+					public void onHeartbeat() {
+						output("heartbeat", "silver");
+					}
+
+					@Override
+					public void onRefresh() {
+						output("refresh", "silver");
+					}
+
+					@Override
+					public void onMessage(
+							final List<? extends Serializable> messages) {
+						for (final Serializable message : messages) {
+							if (message instanceof Message) {
+								final Message chatMessage = (Message) message;
+								MessagingModel.this.messages.add(chatMessage);
+								fireMessagesChanged();
+							} else {
+								output("unrecognised message " + message, "red");
+							}
+						}
 					}
 				});
-			}
-		});
+		cometClient.start();
 	}
 
 	private void reconnect() {
